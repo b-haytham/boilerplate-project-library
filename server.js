@@ -41,8 +41,8 @@ app.use(function (req, res, next) {
 
 //Start our server and tests!
 mongoose.connect(process.env.MONGO_DB).then(() => {
-  app.listen(3000, function () {
-    console.log("Listening on port " + 3000);
+  app.listen(3001, function () {
+    console.log("Listening on port " + 3001);
   });
 });
 
